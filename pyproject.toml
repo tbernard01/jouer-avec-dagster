@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "jouer-avec-dagster"
+version = "0.1.0"
+description = ""
+authors = ["Timothé BERNARD <tber.insa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dagster = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
